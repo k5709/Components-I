@@ -9,7 +9,20 @@ let menuItems = [
   'Music',
   'Log Out'
 ];
+function menuMaker() {
+const menuContainer = document.createElement("div")
+const menuStudents = document.createElement('li')
+const menuFaculty = document.createElement('li')
+const menuWhatsNew = document.createElement('li')
+const menuTechTrends = document.createElement('li')
+const menuMusic = document.createElement('li')
+const menuLogOut = document.createElement('li')
 
+menuContainer.classlist.add("menu")
+menuContainer.appendChild('li');
+
+
+}
 /*
   Step 1: Write a component called 'menuMaker' to create a menu like the markup below:
 
